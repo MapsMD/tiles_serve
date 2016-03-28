@@ -1,0 +1,22 @@
+{
+  "name": "tile_serve",
+  "version": "1.0.0",
+  "description": "Maps Serving for maps.md",
+  "main": "index.js",
+  "dependencies": {
+    "express": "~4.13.3",
+    "http": "~0.0.0",
+    "tilelive": "~5.11.0",
+    "tilelive-mapnik": "~0.6.17"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "today",
+    "maps"
+  ],
+  "author": "Anatolie Golovco",
+  "license": "BSD-2-Clause"
+}
