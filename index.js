@@ -1,7 +1,9 @@
 var express = require('express')
-  , http = require('http');
+  , http = require('http')
+  , cors = require('cors');
 
 var app = express();
+app.use(cors())
 var server = http.createServer(app);
 
 var tilelive = require('tilelive');
