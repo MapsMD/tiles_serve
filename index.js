@@ -8,7 +8,7 @@ var server = http.createServer(app);
 
 var tilelive = require('tilelive');
 require('tilelive-mapnik').registerProtocols(tilelive);
-var filename = __dirname + '/' + 'stylesheet.xml';
+var filename = __dirname + '/' + 'mapsmd.xml';
 tilelive.load('mapnik://' + filename, function(err, source) {
     if (err) throw err;
     app.get('/:z/:x/:y.*', function(req, res) {
